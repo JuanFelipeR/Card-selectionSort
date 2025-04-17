@@ -1,5 +1,78 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: #28a745;
+    font-family: 'Arial', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 20px;
+  }
 
-body{
-    background: white;
-}
+  
+  .controls label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input[type="number"] {
+    width: 70px;
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  h3 {
+    margin-top: 30px;
+  }
+
+  .card {
+    width: 80px;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 24px;
+  }
+  
+  .top {
+    align-self: flex-start;
+    font-size: 20px;
+  }
+  
+  .bottom {
+    align-self: flex-end;
+    font-size: 20px;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .black {
+    color: black;
+  }
